@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 .main-container {
@@ -16,36 +17,40 @@
 .main-container_text {
   align-self: flex-start;
   margin-bottom: 20px;
+  font-size: 30px;
 }
 
 .main-container_author {
   align-self: flex-end;
   height: 10vh;
+  font-style: italic;
 }
 
 .main-container_button {
   align-self: center;
-  margin-top: 40px;
+  position: absolute;
+  bottom: 50px;
 
 }
 
 button {
-  color: white;
+  color: #000;
   border-width: 2px 0;
   border-style: solid none;
-  border-color: #FDBE33 #000 #D77206;
+  border-color: #3a311b #000 #1e150c;
   border-radius: 6px;
-  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  background: linear-gradient(#584517, #db943a) #E38916;
   transition: 0.2s;
   font-size: 18px;
   width: 150px;
   height: 50px;
+  font-weight: 800;
 }
 
 button:hover {
-  background: linear-gradient(#f5ae00, #f59500) #f5ae00;
+  background: linear-gradient(#db943a, #584517) #db943a;
 }
 
 button:active {
-  background: linear-gradient(#f59500, #f5ae00) #f59500;
+  background: linear-gradient(#584517, #db943a) #E38916;
 }
